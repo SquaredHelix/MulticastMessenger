@@ -48,7 +48,7 @@ public class Multicaster {
 	}
 
 	public MulticastMessage receiveMessage() {
-		byte[] buffer = new byte[1028];
+		byte[] buffer = new byte[bufferSize];
 		DatagramPacket packet = new DatagramPacket(buffer, buffer.length, group, port);
 		try {
 			socket.receive(packet);
