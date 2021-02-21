@@ -1,5 +1,5 @@
 # MulticastMessenger
-Local serverless chat application using multicast (Data link layer)'
+Local serverless chat application using multicast (Data link layer)
 
 Java 11
 
