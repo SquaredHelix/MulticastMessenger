@@ -1,7 +1,7 @@
 # MulticastMessenger
 Local serverless chat application using multicast (Data link layer)
 
-Java 18
+Java 17
 
 ## Usage
 The app can be started like any other java application `java -jar MulticastMessenger.jar`
